@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.306
+TNS   : -60.879
+
+Type  : Slow 1200mV 85C Model Setup 'divi50:L0|out2'
+Slack : -2.729
+TNS   : -15.111
+
+Type  : Slow 1200mV 85C Model Setup 'contador45:L1|Cont[1]'
+Slack : -0.185
+TNS   : -0.327
+
+Type  : Slow 1200mV 85C Model Hold 'divi50:L0|out2'
+Slack : -2.091
+TNS   : -2.403
+
+Type  : Slow 1200mV 85C Model Hold 'contador45:L1|Cont[1]'
+Slack : -1.684
+TNS   : -10.467
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -30.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divi50:L0|out2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'contador45:L1|Cont[1]'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.725
+TNS   : -51.350
+
+Type  : Slow 1200mV 0C Model Setup 'divi50:L0|out2'
+Slack : -2.315
+TNS   : -12.634
+
+Type  : Slow 1200mV 0C Model Setup 'contador45:L1|Cont[1]'
+Slack : -0.097
+TNS   : -0.097
+
+Type  : Slow 1200mV 0C Model Hold 'divi50:L0|out2'
+Slack : -1.890
+TNS   : -2.225
+
+Type  : Slow 1200mV 0C Model Hold 'contador45:L1|Cont[1]'
+Slack : -1.486
+TNS   : -9.154
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -30.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divi50:L0|out2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'contador45:L1|Cont[1]'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.943
+TNS   : -23.169
+
+Type  : Fast 1200mV 0C Model Setup 'divi50:L0|out2'
+Slack : -1.139
+TNS   : -5.807
+
+Type  : Fast 1200mV 0C Model Setup 'contador45:L1|Cont[1]'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divi50:L0|out2'
+Slack : -1.231
+TNS   : -1.416
+
+Type  : Fast 1200mV 0C Model Hold 'contador45:L1|Cont[1]'
+Slack : -1.092
+TNS   : -7.045
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.067
+TNS   : -0.067
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -31.715
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divi50:L0|out2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'contador45:L1|Cont[1]'
+Slack : 0.444
+TNS   : 0.000
+
+------------------------------------------------------------

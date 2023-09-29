@@ -1,0 +1,71 @@
+|Mod_Nocturno
+noche => contador10:L1.Up
+clk => divi50:L0.clk
+Sem1[0] << <GND>
+Sem1[1] << <GND>
+Sem1[2] << Sem1[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Sem2 << Sem2$latch.DB_MAX_OUTPUT_PORT_TYPE
+Sem3[0] << <GND>
+Sem3[1] << <GND>
+Sem3[2] << Sem3[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Sem4 << Sem4$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Mod_Nocturno|divi50:L0
+clk => out2~reg0.CLK
+clk => count2[0].CLK
+clk => count2[1].CLK
+clk => count2[2].CLK
+clk => count2[3].CLK
+clk => count2[4].CLK
+clk => count2[5].CLK
+clk => count2[6].CLK
+clk => count2[7].CLK
+clk => count2[8].CLK
+clk => count2[9].CLK
+clk => count2[10].CLK
+clk => count2[11].CLK
+clk => count2[12].CLK
+clk => count2[13].CLK
+clk => count2[14].CLK
+clk => count2[15].CLK
+clk => count2[16].CLK
+clk => count2[17].CLK
+clk => count2[18].CLK
+clk => count2[19].CLK
+clk => count2[20].CLK
+clk => count2[21].CLK
+clk => count2[22].CLK
+clk => count2[23].CLK
+clk => count2[24].CLK
+clk => count2[25].CLK
+out2 <= out2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Mod_Nocturno|contador10:L1
+Clk => Cont[0].CLK
+Clk => Cont[1].CLK
+Clk => Cont[2].CLK
+Clk => Cont[3].CLK
+Clk => Cont[4].CLK
+Clk => Cont[5].CLK
+Clk => Cont[6].CLK
+Clk => Cont[7].CLK
+Up => Cont[0].ENA
+Up => Cont[1].ENA
+Up => Cont[2].ENA
+Up => Cont[3].ENA
+Up => Cont[4].ENA
+Up => Cont[5].ENA
+Up => Cont[6].ENA
+Up => Cont[7].ENA
+Q[0] <= Cont[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Cont[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Cont[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Cont[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Cont[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Cont[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Cont[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Cont[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
